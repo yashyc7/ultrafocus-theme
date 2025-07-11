@@ -1,0 +1,21 @@
+{
+  "name": "ultrafocus-theme",
+  "displayName": "UltraFocus-Theme ",
+  "description": "An vs code theme based for long coding sessions and improved focus at the same time. In the first it may not look good for sure but believe me this is very helpful.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.102.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Ultra Focus Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Ultra Focus Theme-color-theme.json"
+      }
+    ]
+  }
+}

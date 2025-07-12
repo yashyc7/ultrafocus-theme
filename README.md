@@ -16,7 +16,7 @@ The theme uses a unique olive-green based color scheme:
 
 - **Background**: Deep olive (#262701) for reduced eye strain
 - **Foreground**: Soft cream (#CCCCAA) for comfortable text reading
-- **Accent Colors**: 
+- **Accent Colors**:
   - Purple (#C792EA) for keywords and attributes
   - Light blue (#89DDFF) for operators and punctuation
   - Coral (#f07178) for tags and variables
@@ -72,7 +72,7 @@ This theme prioritizes functionality over aesthetics:
 
 ## Screenshots
 
-*Add screenshots of the theme in action with different file types*
+_Add screenshots of the theme in action with different file types_
 
 ## Contributing
 
@@ -101,4 +101,4 @@ Your feedback is valuable! If you find this theme helpful for your coding sessio
 **Publisher**: YashChauhan941140  
 **Repository**: [GitHub](https://github.com/yashyc7/ultrafocus-theme)
 
-*Remember: This theme is designed for functionality and focus, not conventional beauty. Give it a try for a few coding sessions to experience the benefits!*
+_Remember: This theme is designed for functionality and focus, not conventional beauty. Give it a try for a few coding sessions to experience the benefits!_

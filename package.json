@@ -2,7 +2,7 @@
   "name": "ultrafocus-theme",
   "displayName": "UltraFocus-Theme ",
   "description": "An vs code theme based for long coding sessions and improved focus at the same time. In the first it may not look good for sure but believe me this is very helpful.",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "publisher": "YashChauhan941140",
   "icon": "icon.png",
   "repository": {
@@ -10,7 +10,7 @@
     "url": "https://github.com/yashyc7/ultrafocus-theme.git"
   },
   "engines": {
-    "vscode": "^1.102.0"
+    "vscode": "^1.50.0"
   },
   "categories": [
     "Themes"

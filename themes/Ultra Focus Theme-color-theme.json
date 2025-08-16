@@ -1,32 +1,32 @@
 {
-  "name": "Ultra Focus Theme",
+  "name": "Ultra Focus Pure Dark",
   "colors": {
-    "editor.background": "#0b0e14",
+    "editor.background": "#000000",
     "editor.foreground": "#e6edf3",
-    "sideBar.background": "#0b0e14",
-    "activityBar.background": "#0b0e14",
-    "titleBar.activeBackground": "#0b0e14",
+    "sideBar.background": "#000000",
+    "activityBar.background": "#000000",
+    "titleBar.activeBackground": "#000000",
     "activityBarBadge.background": "#238636",
     "sideBarTitle.foreground": "#f0f6fc",
-    "statusBar.background": "#0b0e14",
+    "statusBar.background": "#000000",
     "statusBar.foreground": "#e6edf3",
     "editorLineNumber.foreground": "#7d8590",
-    "editorCursor.foreground": "#79c0ff",
+    "editorCursor.foreground": "#58a6ff",
     "editor.selectionBackground": "#264f78",
-    "editor.lineHighlightBackground": "#161b22",
-    "editorIndentGuide.background1": "#21262d",
-    "editorWhitespace.foreground": "#484f58",
+    "editor.lineHighlightBackground": "#111111",
+    "editorIndentGuide.background1": "#1a1a1a",
+    "editorWhitespace.foreground": "#333333",
     "breadcrumb.foreground": "#e6edf3",
-    "breadcrumb.background": "#0b0e14",
-    "tab.activeBackground": "#0b0e14",
-    "tab.inactiveBackground": "#0b0e14",
+    "breadcrumb.background": "#000000",
+    "tab.activeBackground": "#000000",
+    "tab.inactiveBackground": "#000000",
     "tab.activeForeground": "#e6edf3",
     "tab.inactiveForeground": "#7d8590",
-    "tab.border": "#21262d",
-    "editorGroupHeader.tabsBackground": "#0b0e14",
-    "editorGroupHeader.noTabsBackground": "#0b0e14",
-    "panel.background": "#0b0e14",
-    "terminal.background": "#0b0e14",
+    "tab.border": "#1a1a1a",
+    "editorGroupHeader.tabsBackground": "#000000",
+    "editorGroupHeader.noTabsBackground": "#000000",
+    "panel.background": "#000000",
+    "terminal.background": "#000000",
     "terminal.foreground": "#e6edf3"
   },
   "tokenColors": [
@@ -38,7 +38,7 @@
       ],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#7d8590"
+        "foreground": "#6e7681"
       }
     },
     {
@@ -89,7 +89,7 @@
         "keyword.other.substitution"
       ],
       "settings": {
-        "foreground": "#79c0ff"
+        "foreground": "#58a6ff"
       }
     },
     {
@@ -113,7 +113,7 @@
         "keyword.other.special-method"
       ],
       "settings": {
-        "foreground": "#d2a8ff",
+        "foreground": "#c297ff"
       }
     },
     {

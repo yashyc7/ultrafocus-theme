@@ -1,0 +1,93 @@
+{
+  "$schema": "vscode://schemas/color-theme",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#000000",
+    "editor.foreground": "#e0e0e0",
+    "editorCursor.foreground": "#4ec9b0",
+    "editor.lineHighlightBackground": "#1a1a1a",
+    "editorLineNumber.foreground": "#6b7280",
+    "editorLineNumber.activeForeground": "#4ec9b0",
+    "editor.selectionBackground": "#3b4a5a",
+    "editorBracketMatch.background": "#1a1a1a",
+    "editorBracketMatch.border": "#4ec9b0",
+    "sideBar.background": "#000000",
+    "sideBar.foreground": "#d1d5db",
+    "activityBar.background": "#000000",
+    "activityBar.foreground": "#4ec9b0",
+    "statusBar.background": "#000000",
+    "statusBar.foreground": "#d1d5db",
+    "titleBar.activeBackground": "#000000",
+    "titleBar.activeForeground": "#d1d5db"
+  },
+  "tokenColors": [
+    {
+      "name": "Functions",
+      "scope": [
+        "entity.name.function",
+        "meta.function-call",
+        "variable.function",
+        "support.function",
+        "keyword.other.special-method"
+      ],
+      "settings": {
+        "foreground": "#4ec9b0"
+      }
+    },
+    {
+      "name": "Classes",
+      "scope": [
+        "entity.name.class",
+        "support.class",
+        "support.type"
+      ],
+      "settings": {
+        "foreground": "#d7ba7d"
+      }
+    },
+    {
+      "name": "Numbers & Constants",
+      "scope": [
+        "constant.numeric",
+        "constant.language",
+        "support.constant",
+        "variable.parameter"
+      ],
+      "settings": {
+        "foreground": "#b392f0"
+      }
+    },
+    {
+      "name": "Strings",
+      "scope": [
+        "string",
+        "constant.other.symbol"
+      ],
+      "settings": {
+        "foreground": "#9ccc65"
+      }
+    },
+    {
+      "name": "Keywords",
+      "scope": "keyword",
+      "settings": {
+        "foreground": "#f06292"
+      }
+    },
+    {
+      "name": "Comments",
+      "scope": "comment",
+      "settings": {
+        "foreground": "#6b7280",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Variables",
+      "scope": "variable",
+      "settings": {
+        "foreground": "#e0e0e0"
+      }
+    }
+  ]
+}

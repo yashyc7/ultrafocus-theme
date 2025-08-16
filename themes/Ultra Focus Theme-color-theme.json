@@ -1,110 +1,28 @@
 {
-  "name": "Ultra Focus Pure Dark",
+  "$schema": "vscode://schemas/color-theme",
+  "type": "dark",
   "colors": {
-    "editor.background": "#000000",
-    "editor.foreground": "#e6edf3",
-    "sideBar.background": "#000000",
-    "activityBar.background": "#000000",
-    "titleBar.activeBackground": "#000000",
-    "activityBarBadge.background": "#238636",
-    "sideBarTitle.foreground": "#f0f6fc",
-    "statusBar.background": "#000000",
-    "statusBar.foreground": "#e6edf3",
-    "editorLineNumber.foreground": "#7d8590",
-    "editorCursor.foreground": "#58a6ff",
-    "editor.selectionBackground": "#264f78",
-    "editor.lineHighlightBackground": "#111111",
-    "editorIndentGuide.background1": "#1a1a1a",
-    "editorWhitespace.foreground": "#333333",
-    "breadcrumb.foreground": "#e6edf3",
-    "breadcrumb.background": "#000000",
-    "tab.activeBackground": "#000000",
-    "tab.inactiveBackground": "#000000",
-    "tab.activeForeground": "#e6edf3",
-    "tab.inactiveForeground": "#7d8590",
-    "tab.border": "#1a1a1a",
-    "editorGroupHeader.tabsBackground": "#000000",
-    "editorGroupHeader.noTabsBackground": "#000000",
-    "panel.background": "#000000",
-    "terminal.background": "#000000",
-    "terminal.foreground": "#e6edf3"
+    "editor.background": "#000000", // Pure black as requested
+    "editor.foreground": "#e0e0e0", // Softer off-white; high contrast (~21:1) against black
+    "editorCursor.foreground": "#4ec9b0", // Soft teal; less blue light than cyan
+    "editor.lineHighlightBackground": "#1a1a1a", // Subtle dark gray for active line; avoids pure black to distinguish
+    "editorLineNumber.foreground": "#6b7280", // Neutral gray; contrast ~7:1
+    "editorLineNumber.activeForeground": "#4ec9b0", // Teal for active line number
+    "editor.selectionBackground": "#3b4a5a", // Muted blue-gray; contrast ~5:1 for readability
+    "editorBracketMatch.background": "#1a1a1a", // Subtle gray for bracket matching
+    "editorBracketMatch.border": "#4ec9b0", // Teal for bracket borders
+    "sideBar.background": "#000000", // Pure black for sidebar
+    "sideBar.foreground": "#d1d5db", // Light gray; contrast ~15:1
+    "activityBar.background": "#000000", // Pure black for activity bar
+    "activityBar.foreground": "#4ec9b0", // Teal for icons
+    "statusBar.background": "#000000", // Pure black for status bar
+    "statusBar.foreground": "#d1d5db", // Light gray; high contrast
+    "titleBar.activeBackground": "#000000", // Pure black for title bar
+    "titleBar.activeForeground": "#d1d5db" // Light gray for title text
   },
   "tokenColors": [
     {
-      "name": "Comment",
-      "scope": [
-        "comment",
-        "punctuation.definition.comment"
-      ],
-      "settings": {
-        "fontStyle": "italic",
-        "foreground": "#6e7681"
-      }
-    },
-    {
-      "name": "Variables",
-      "scope": [
-        "variable",
-        "string constant.other.placeholder"
-      ],
-      "settings": {
-        "foreground": "#e6edf3"
-      }
-    },
-    {
-      "name": "Invalid",
-      "scope": [
-        "invalid",
-        "invalid.illegal"
-      ],
-      "settings": {
-        "foreground": "#f85149"
-      }
-    },
-    {
-      "name": "Keyword, Storage",
-      "scope": [
-        "keyword",
-        "storage.type",
-        "storage.modifier"
-      ],
-      "settings": {
-        "foreground": "#ff7b72"
-      }
-    },
-    {
-      "name": "Operator, Misc",
-      "scope": [
-        "keyword.control",
-        "constant.other.color",
-        "punctuation",
-        "meta.tag",
-        "punctuation.definition.tag",
-        "punctuation.separator.inheritance.php",
-        "punctuation.definition.tag.html",
-        "punctuation.definition.tag.begin.html",
-        "punctuation.definition.tag.end.html",
-        "punctuation.section.embedded",
-        "keyword.other.template",
-        "keyword.other.substitution"
-      ],
-      "settings": {
-        "foreground": "#58a6ff"
-      }
-    },
-    {
-      "name": "Tag",
-      "scope": [
-        "entity.name.tag",
-        "meta.tag.sgml",
-        "markup.deleted.git_gutter"
-      ],
-      "settings": {
-        "foreground": "#7ee787"
-      }
-    },
-    {
-      "name": "Function, Special Method",
+      "name": "Functions",
       "scope": [
         "entity.name.function",
         "meta.function-call",
@@ -113,92 +31,62 @@
         "keyword.other.special-method"
       ],
       "settings": {
-        "foreground": "#c297ff"
+        "foreground": "#4ec9b0" // Soft teal; vibrant but low strain
       }
     },
     {
-      "name": "Number, Constant, Function Argument, Tag Attribute, Embedded",
+      "name": "Classes",
+      "scope": [
+        "entity.name.class",
+        "support.class",
+        "support.type"
+      ],
+      "settings": {
+        "foreground": "#d7ba7d" // Muted gold; warm and distinct
+      }
+    },
+    {
+      "name": "Numbers & Constants",
       "scope": [
         "constant.numeric",
         "constant.language",
         "support.constant",
-        "constant.character",
-        "constant.escape",
-        "variable.parameter",
-        "keyword.other.unit",
-        "keyword.other"
+        "variable.parameter"
       ],
       "settings": {
-        "foreground": "#79c0ff"
+        "foreground": "#b392f0" // Soft purple; calm yet clear
       }
     },
     {
-      "name": "String, Symbols, Inherited Class, Markup Heading",
+      "name": "Strings",
       "scope": [
         "string",
-        "constant.other.symbol",
-        "constant.other.key",
-        "entity.other.inherited-class",
-        "markup.heading",
-        "markup.inserted.git_gutter",
-        "meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
+        "constant.other.symbol"
       ],
       "settings": {
-        "foreground": "#a5d6ff"
+        "foreground": "#9ccc65" // Muted green; less intense
       }
     },
     {
-      "name": "Class, Support",
-      "scope": [
-        "entity.name.class",
-        "entity.name",
-        "support.type",
-        "support.class",
-        "support.other.namespace.use.php",
-        "meta.use.php",
-        "support.other.namespace.php",
-        "markup.changed.git_gutter",
-        "support.type.sys-types"
-      ],
+      "name": "Keywords",
+      "scope": "keyword",
       "settings": {
-        "foreground": "#ffa657",
-        "fontStyle": "underline"
+        "foreground": "#f06292" // Soft pink-red; bold but not harsh
       }
     },
     {
-      "name": "Attributes",
-      "scope": [
-        "entity.other.attribute-name"
-      ],
+      "name": "Comments",
+      "scope": "comment",
       "settings": {
-        "foreground": "#79c0ff"
+        "foreground": "#6b7280", // Neutral gray; contrast ~7:1, italic for style
+        "fontStyle": "italic"
       }
     },
     {
-      "name": "CSS Classes",
-      "scope": [
-        "entity.other.attribute-name.class"
-      ],
+      "name": "Variables",
+      "scope": "variable",
       "settings": {
-        "foreground": "#ffa657"
-      }
-    },
-    {
-      "name": "Regular Expressions",
-      "scope": [
-        "string.regexp"
-      ],
-      "settings": {
-        "foreground": "#7ee787"
-      }
-    },
-    {
-      "name": "JSON Key - Level 0",
-      "scope": [
-        "source.json meta.structure.dictionary.json support.type.property-name.json"
-      ],
-      "settings": {
-        "foreground": "#79c0ff"
+        "foreground": "#e0e0e0" // Matches editor foreground
       }
     }
   ]
